@@ -25,9 +25,9 @@
 	    methods: {
 			cacheElements() {
 				this.body = document.getElementById("body");
-				this.body.style.backgroundColor = "#02bf8b";
+				this.body.style.backgroundColor = "#e64a00";
 				this.splatElement = document.getElementById("splat");
-				this.splatElement.style.backgroundColor = "#02bf8b";
+				this.splatElement.style.backgroundColor = "#e64a00";
 				this.arrow = document.getElementById("arrow");
 				this.arrow.style.display = "none";
 			},
