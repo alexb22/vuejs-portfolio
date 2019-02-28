@@ -171,6 +171,8 @@
 	}
 
 	.picture-container {
+		position: relative;
+		height: 100%;
 		transition: opacity 0.5s ease-out;
 		opacity: 1;
 	}
@@ -178,7 +180,8 @@
 	.project-pic {
 		position: absolute;
 		height: auto;
-	  	width: 300px;
+	  	width: 95%;
+	  	max-width: 300px;
 		height: auto;
 		top: 70%;
 		left: 50%;
@@ -193,6 +196,11 @@
 
 	.pictureSplatContainer {
 	  position: absolute;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 95%;
+	  width: 95%;
 	  top: 70%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
@@ -206,8 +214,10 @@
 	.pictureSplat {
 	  position: relative;
 	  content: "";
-	  height: 250px;
-	  width: 250px;
+	  height: 95%;
+	  width: 95%;
+	  max-width: 250px;
+	  max-height: 250px;
 	  border-radius: 50%;
 	  animation: calmSquishing 5s infinite alternate, calmBlobAnimation 7s infinite alternate;
 	  -webkit-box-shadow: 0px 0px 24px 1px rgba(1, 171, 255, 0.75);
@@ -289,13 +299,16 @@
 		}
 
 		.project-pic {
-		  	width: 425px;
+		  	width: 95%;
 		  	top: 50%;
+		  	max-width: 400px;
 		}
 
 		.pictureSplat {
-			height: 350px;
-	  		width: 350px;
+			height: 90%;
+	  		width: 90%;
+	  		max-width: 325px;
+	  		max-height: 325px;
 		}
 
 		.verticalFlag {
