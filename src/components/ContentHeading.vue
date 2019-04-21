@@ -90,7 +90,7 @@
 
 	.allHeadings {
 		position: absolute;
-		width: 90%;
+		width: 95%;
 		margin: auto;
 		z-index: 0;
 		top: 50%;
