@@ -5,7 +5,7 @@
 		  	<font-awesome-icon id="mobile" icon="mobile-alt" class="fa-4x fa" />
 		  </div>
 	      <h3>Responsive</h3>
-	      <p>I design with a mobile first mindset. My applications will work seemlessly on any device.</p>
+	      <p>I design with a mobile first mindset. My applications will work seamlessly on any device.</p>
 	    </div>
 	    <div class="iconContainer">
 	      <div class="fontAwesomeContainer">
