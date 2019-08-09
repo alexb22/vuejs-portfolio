@@ -31,7 +31,7 @@
 		transition: transform 0.2s ease-in;
 		background-color: white;
 		z-index: 1000;
-		transform: translateY(-100%);
+		transform: translateY(-110%);
 		overflow: visible;
 		z-index: 100;
 	}
@@ -45,7 +45,7 @@
 		transition: transform 0.2s ease-in;
 		background-color: white;
 		z-index: 1000;
-		transform: translateY(100%);
+		transform: translateY(110%);
 		z-index: 99;
 	}
 
